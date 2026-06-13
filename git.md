@@ -21,3 +21,7 @@ origin/main
 
 Switch to SSH:
 git remote set-url origin git@github.com:bhanuonline/test.git
+
+added name/email:
+git config --global user.name "Bhanu Pratap"
+git config --global user.email "your-github-email@example.com"
