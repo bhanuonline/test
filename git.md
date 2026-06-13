@@ -18,3 +18,6 @@ origin/HEAD
      |
      v
 origin/main
+
+Switch to SSH:
+git remote set-url origin git@github.com:bhanuonline/test.git
