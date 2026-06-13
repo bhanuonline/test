@@ -28,3 +28,8 @@ git config --global user.email "your-github-email@example.com"
 
 See the commit that hasn't been pushed:
 git log --oneline origin/main..HEAD
+
+Cleanup ACtivity:
+Since the feature branch has already been merged, you can delete it:
+git branch -d feature/daily-workflow
+git push origin --delete feature/daily-workflow
